@@ -42,7 +42,7 @@ class Measures:
                         By default the mean color is used.
         """
 
-        self.model = model
+        self.model = model.eval()
         self.batch_size = batch_size
         self.irof_segments = irof_segments
         self.irof_sigma = irof_sigma
